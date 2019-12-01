@@ -70,7 +70,7 @@ for ci=1:length(patients) % for each of the *patients* we extract patches
             
             
             
-            ilf=cat(3,io,ilf);%add the original RGB to the teture features
+            ilf=cat(3,io,ilfo);%add the original RGB to the teture features
             [nrow,ncol,ndim]=size(ilf);
             ilfr=reshape(ilf,[nrow *ncol ndim]); %put them into a matrix where rows are pixels and columns are the feature space
             ilfr(isnan(ilfr))=0; %remove any nans...just incase
