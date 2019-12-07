@@ -2,4 +2,5 @@
 *.bmp
 DB_t*/
 *.txt
-
+*.mat
+*.binaryproto
